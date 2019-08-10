@@ -18,6 +18,22 @@
           <hdfs-port value="9000" />
         </database>
       </fsconnection>
+      <fsconnection id="28b359eb-72d1-434a-a73e-77c688f4ad2f">
+        <database>
+          <name value="QTLAB" />
+          <description value="" />
+          <active value="true" />
+          <os-authentication value="false" />
+          <database-type value="HDFS" />
+          <database-version value="9999.0" />
+          <user value="root" />
+          <password value="" />
+          <mapreduce-host value="" />
+          <mapreduce-port value="" />
+          <hdfs-host value="node01" />
+          <hdfs-port value="8020" />
+        </database>
+      </fsconnection>
     </connections>
     <general-settings>
       <regional-settings>
