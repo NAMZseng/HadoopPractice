@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HadoopPractice:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ab6293d-6190-4693-81bc-c0742715217c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/hdfsnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hdfsnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsConnectUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>status</find>
+      <find>cluster</find>
+      <find>tokens</find>
+      <find>values</find>
+      <find>,</find>
+      <find>submit</find>
+      <find>submit()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>values</replace>
+      <replace>tokens</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortReducer.java" root0="SKIP_INSPECTION" />
+    <setting file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/Hadoop_Intellij_Plugin-master/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/assembly.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountMap.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/WordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/WordCountDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/wordCount/WordCountDemo.java" />
+        <option value="$PROJECT_DIR$/../../大数据/Hadoop/Hadoop生态概要/WordCount/WCMap.java" />
+        <option value="$PROJECT_DIR$/../../大数据/Hadoop/Hadoop生态概要/WordCount/WCReduce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/wordCount/WordCountMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/WordCountMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/wordCount/WordCountReduce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/wordCount/Demo.java" />
+        <option value="F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/test/wc_accompany.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/core-site.xml" />
+        <option value="F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/Hadoop_Intellij_Plugin-master/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapred-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nam/mapreduce/wordCount/WordCountJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordCount/WordCountReduce.java" />
+        <option value="$PROJECT_DIR$/assembly.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarySort/DateTemperaturePartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarySort/SecondarySortReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarySort/DateTemperatureGroupingComparator.java" />
+        <option value="O:/sparkTestData/secondarySort_Temp.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/yarn-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarySort/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordCount/WordCountJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordCount/WordCountMap.java" />
+        <option value="$PROJECT_DIR$/src/input/secondarySort_Temp.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarySort/SecondarySortDriver.java" />
+        <option value="$PROJECT_DIR$/src/input/sc_temperature.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarySort/SecondarySortMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarySort/DateTemperaturePair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/DateTemperaturePartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/DateTemperatureGroupingComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/Test.java" />
+        <option value="D:/Intellij_IDEA/ideaIU-2018.3.2工具包/quickKeys" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountReduce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/DateTemperaturePair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/nam/hive/udf/TuoMinTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/hive/udf/TuoMin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsConnectUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nam" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nam" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nam" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="hadooppractice" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QingTai" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.nam.hdfs" />
+      <recent name="cn.nam.hive.udf" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WordCountJob">
+    <configuration name="WordCountJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.nam.mapreduce.wordcount.WordCountJob" />
+      <module name="HadoopPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemoTest.copyFromLocalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopPractice" />
+      <option name="PACKAGE_NAME" value="cn.nam.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="cn.nam.hdfs.HdfsDemoTest" />
+      <option name="METHOD_NAME" value="copyFromLocalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemoTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopPractice" />
+      <option name="PACKAGE_NAME" value="cn.nam.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="cn.nam.hdfs.HdfsDemoTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemoTest.hdfsConnectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopPractice" />
+      <option name="PACKAGE_NAME" value="cn.nam.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="cn.nam.hdfs.HdfsDemoTest" />
+      <option name="METHOD_NAME" value="hdfsConnectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemoTest.renameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopPractice" />
+      <option name="PACKAGE_NAME" value="cn.nam.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="cn.nam.hdfs.HdfsDemoTest" />
+      <option name="METHOD_NAME" value="renameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordCountJob" />
+        <item itemvalue="JUnit.HdfsDemoTest.renameTest" />
+        <item itemvalue="JUnit.HdfsDemoTest.deleteTest" />
+        <item itemvalue="JUnit.HdfsDemoTest.copyFromLocalTest" />
+        <item itemvalue="JUnit.HdfsDemoTest.hdfsConnectTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_ANONYMOUS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\Nam Z\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HdfsDemoTest_renameTest - 2019.08.10 at 18h 33m 05s.xml">
+      <configuration name="HdfsDemoTest.renameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_putFileIOTest - 2019.08.10 at 18h 58m 27s.xml">
+      <configuration name="HdfsDemoTest.putFileIOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_putFileIOTest - 2019.08.10 at 18h 59m 07s.xml">
+      <configuration name="HdfsDemoTest.putFileIOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_hdfsConnectTest - 2019.08.12 at 11h 22m 41s.xml">
+      <configuration name="HdfsDemoTest.hdfsConnectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_copyFromLocalTest - 2019.08.12 at 11h 24m 22s.xml">
+      <configuration name="HdfsDemoTest.copyFromLocalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_copyFromLocalTest - 2019.08.12 at 11h 25m 02s.xml">
+      <configuration name="HdfsDemoTest.copyFromLocalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_deleteTest - 2019.08.12 at 11h 25m 59s.xml">
+      <configuration name="HdfsDemoTest.deleteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_deleteTest - 2019.08.12 at 11h 29m 34s.xml">
+      <configuration name="HdfsDemoTest.deleteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_deleteTest - 2019.08.12 at 11h 29m 48s.xml">
+      <configuration name="HdfsDemoTest.deleteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_renameTest - 2019.08.12 at 11h 31m 08s.xml">
+      <configuration name="HdfsDemoTest.renameTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22252011" />
+      <window_info id="Structure" order="1" weight="0.38589212" />
+      <window_info id="ZooKeeper" order="2" weight="0.17828418" />
+      <window_info active="true" id="Hadoop FileSystem" order="3" visible="true" weight="0.18565683" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.5536232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289855" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.28985506" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.70869565" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289855" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" x="0" y="0" width="337" height="648" id="Documentation" order="6" side_tool="true" type="FLOATING" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21983914" />
+      <window_info id="Structure" order="1" weight="0.38589212" />
+      <window_info id="ZooKeeper" order="2" weight="0.17828418" />
+      <window_info id="Hadoop FileSystem" order="3" weight="0.18565683" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.5536232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289855" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.28985506" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.70869565" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289855" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" x="0" y="0" width="337" height="648" id="Documentation" order="6" side_tool="true" type="FLOATING" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建git管理，添加mr程序，hive UDF程序" />
+    <MESSAGE value="测试Hive UDF 方法" />
+    <MESSAGE value="Hdfs API使用练习" />
+    <MESSAGE value="修改代码，适配私有云服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改代码，适配私有云服务" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="192.168.150.100" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/lib/input/LineRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.1/hadoop-mapreduce-client-common-3.1.1.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="202" column="31" selection-start-line="202" selection-start-column="31" selection-end-line="202" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="700" selection-start-line="700" selection-end-line="700" />
+          <folding>
+            <element signature="e#22280#22281#0" expanded="true" />
+            <element signature="e#22316#22317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/io/WritableUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/io/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+          <folding>
+            <element signature="e#7864#7865#0" expanded="true" />
+            <element signature="e#7884#7885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/MapTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="584" column="5" lean-forward="true" selection-start-line="584" selection-start-column="5" selection-end-line="584" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4505#4506#0" expanded="true" />
+            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#25408#25608#0" expanded="true" />
+            <element signature="e#25607#25608#0" expanded="true" />
+            <element signature="e#46397#46398#0" expanded="true" />
+            <element signature="e#46451#46452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/io/serializer/WritableSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/io/FloatWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/task/TaskInputOutputContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://O:/sc_temperature.txt" />
+    <entry file="file://$PROJECT_DIR$/src/input/wc_accompany.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input/secondarySort_Temp.txt" />
+    <entry file="file://$PROJECT_DIR$/src/output/sc_temperature.txt" />
+    <entry file="file://$PROJECT_DIR$/src/output/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/output/sc_out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input/sc_temperature.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/task/MapContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/lib/map/WrappedMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapred/JobConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/JobSubmitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="1569" column="31" selection-start-line="1569" selection-start-column="31" selection-end-line="1569" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapred-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/yarn-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/TaskInputOutputContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/Test.java" />
+    <entry file="file://D:/Intellij_IDEA/ideaIU-2018.3.2工具包/quickKeys" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/DateTemperaturePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#hashCode#0;class#DateTemperaturePair#0" />
+            <element signature="method#equals#0;class#DateTemperaturePair#0" />
+            <element signature="method#toString#0;class#DateTemperaturePair#0" />
+            <element signature="method#write#0;class#DateTemperaturePair#0" />
+            <element signature="method#readFields#0;class#DateTemperaturePair#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/DateTemperatureGroupingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/DateTemperaturePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/hive/udf/TuoMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HappyCloud/Server/src/main/java/cn/nam/android/happycloud/dao/HdfsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Intellij_IDEA/ideaIU-工具包/quickKeys">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HappyCloud/Server/src/main/java/cn/nam/android/happycloud/utils/HdfsConn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/nam/hive/udf/TuoMinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsDemo.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="405" column="10" lean-forward="true" selection-start-line="405" selection-start-column="10" selection-end-line="405" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="2368" column="16" selection-start-line="2368" selection-start-column="16" selection-end-line="2368" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="100" column="76" selection-start-line="100" selection-start-column="76" selection-end-line="100" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsConnectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>HadoopPractice:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HadoopPractice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -21,7 +21,7 @@ public class WordCountJob {
 
         Configuration conf = HdfsConnectUtil.getHdfsConn();
         // 设置跨平台提交任务
-        conf.set("mapreduce.app-submission.cross-platform", "true");
+//        conf.set("mapreduce.app-submission.cross-platform", "true");
         // 设置任务jar包，需提前使用maven命令（mvn assembly:assembly）生成
         conf.set("mapred.jar",
                 "F:\\ATech\\Codes\\HadoopPractice\\target\\HadoopPractice-1.0-SNAPSHOT.jar");

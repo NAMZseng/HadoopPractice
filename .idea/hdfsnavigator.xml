@@ -4,7 +4,7 @@
     <connections>
       <fsconnection id="e42411aa-178e-4ee8-9b26-047702b4172c">
         <database>
-          <name value="HDFS" />
+          <name value="LOCAL_HDFS" />
           <description value="" />
           <active value="true" />
           <os-authentication value="false" />
