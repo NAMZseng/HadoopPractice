@@ -1,5 +1,6 @@
 package cn.nam.mapreduce.wordcount;
 
+import cn.nam.hdfs.HdfsConnectUtil;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -18,12 +19,22 @@ import java.io.IOException;
 public class WordCountJob {
     public static void main(String[] args) {
 
-        Configuration conf = new Configuration();
-        // 设置跨平台提交
+        Configuration conf = HdfsConnectUtil.getHdfsConn();
+        // 设置跨平台提交任务
         conf.set("mapreduce.app-submission.cross-platform", "true");
-        // 本地直接调用远程环境的HADOOP, 需上传执行文件
-        conf.set("mapred.jar", "F:\\ATech\\Codes\\HadoopPractice\\target\\HadoopPractice-1.0-SNAPSHOT.jar");
+        // 设置任务jar包，需提前使用maven命令（mvn assembly:assembly）生成
+        conf.set("mapred.jar",
+                "F:\\ATech\\Codes\\HadoopPractice\\target\\HadoopPractice-1.0-SNAPSHOT.jar");
 
+        FileSystem fs = HdfsConnectUtil.getFileSystem();
+        Path inputPath = new Path("/tmp/znr/wc/input/wcinput.txt");
+        try {
+            fs.mkdirs(inputPath);
+            fs.copyFromLocalFile(new Path("O:\\wcinput.txt"), inputPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Path outpath = new Path("/tmp/znr/wc/output");
         Job job = null;
 
         try {
@@ -42,28 +53,24 @@ public class WordCountJob {
         // 设置map输出的value类型
         job.setMapOutputValueClass(IntWritable.class);
 
-        // 设置读取输入文件的位置（为HDFS中的文件位置）
         try {
-            FileInputFormat.addInputPath(job, new Path("/test/wc/input/"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        // 设置处理任务后数据存放的位置
-        // 注：输出文件夹不可预先创建，只能有job自动创建
-        Path outpath = null;
-        try {
-            FileSystem fs = FileSystem.get(conf);
-            outpath = new Path("/test/wc/output");
+            // 设置读取输入文件的位置（为HDFS中的文件位置）
+            FileInputFormat.addInputPath(job, inputPath);
+
+            // 设置处理任务后数据存放的位置
+            // 注：输出文件夹不可预先创建，只能有job自动创建
             if (fs.exists(outpath)) {
                 fs.delete(outpath, true);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         FileOutputFormat.setOutputPath(job, outpath);
 
         // 提交任务等待结束
         boolean flag = false;
+
         try {
             flag = job.waitForCompletion(true);
         } catch (IOException e) {
@@ -73,12 +80,11 @@ public class WordCountJob {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+
         if (flag == true) {
             System.out.println("JOB finished successfully!");
         } else {
             System.out.println("JOB failed!");
         }
-
-
     }
 }

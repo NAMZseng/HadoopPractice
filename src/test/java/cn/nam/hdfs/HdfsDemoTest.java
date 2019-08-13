@@ -4,8 +4,12 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.fs.permission.FsAction;
 import org.apache.hadoop.fs.permission.FsPermission;
+import org.apache.hadoop.io.IOUtils;
 import org.junit.Test;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -51,7 +55,7 @@ public class HdfsDemoTest {
         conf.set("dfs.replication", "2");
         try {
             FileSystem putFs = FileSystem.get(new URI("hdfs://node01:8020"), conf, "znr");
-            putFs.copyFromLocalFile(new Path("O:\\video_hive.mp4"), new Path("/tmp/znr"));
+            putFs.copyFromLocalFile(new Path("O:\\test2"), new Path("/tmp/znr"));
 //            使用默认replication=3上传
 //            fs.copyFromLocalFile(new Path("O:\\apitest"), new Path("/tmp/znr"));
 
@@ -82,7 +86,7 @@ public class HdfsDemoTest {
     @Test
     public void deleteTest() {
         try {
-            fs.delete(new Path("/tmp/znr/newDir2"), false);
+            fs.delete(new Path("/tmp/znr/newdata"), false);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -94,7 +98,7 @@ public class HdfsDemoTest {
     @Test
     public void renameTest() {
         try {
-            fs.rename(new Path("/tmp/znr/2_block"), new Path("/tmp/znr/2_blocks"));
+            fs.rename(new Path("/tmp/znr/lesson2"), new Path("/tmp/znr/hdfs_data"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -165,4 +169,28 @@ public class HdfsDemoTest {
             e.printStackTrace();
         }
     }
+
+    /**
+     * 通过IO流的方式上传文件
+     */
+    @Test
+    public void putFileIOTest()  {
+        FileInputStream fis = null;
+        FSDataOutputStream fos = null;
+        try {
+            fis = new FileInputStream(new File("O:\\iotest"));
+
+            // TODO 测试当文件不存在时，是否会创建新文件
+            fos = fs.create(new Path("/tmp/znr/newdata"));
+
+            IOUtils.copyBytes(fis, fos, conf);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        IOUtils.closeStream(fos);
+        IOUtils.closeStream(fis);
+    }
+
+
 }

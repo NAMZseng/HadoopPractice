@@ -30,7 +30,8 @@ public class HdfsConnectUtil {
         configuration.set("fs.defaultFS", "hdfs://node01:8020/");
 
         try {
-            // 设置操作用户，对于hdfs中的/tmp/znr，只要用户znr具有写权限
+            // 设置操作用户
+            // 用户需要在hdfs的/tmp目录下新建一个个人目录，如/tmp/znr
             fileSystem = FileSystem.get(new URI("hdfs://node01:8020"), configuration, "znr");
         } catch (IOException e) {
             e.printStackTrace();
