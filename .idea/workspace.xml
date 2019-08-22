@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ab6293d-6190-4693-81bc-c0742715217c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hdfsnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hdfsnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +44,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="216">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3294">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -129,14 +141,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountReduce.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/DateTemperaturePair.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/secondarysort/SecondarySortMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/cn/nam/hive/udf/TuoMinTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/hive/udf/TuoMin.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsConnectUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java" />
       </list>
     </option>
@@ -161,7 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,10 +235,50 @@
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
               <item name="wordcount" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nam" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nam" type="462c0819:PsiDirectoryNode" />
+              <item name="udf" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,13 +290,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QingTai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QingTai/eaglesvn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -296,11 +347,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsDemoTest.hdfsConnectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsDemoTest.mkDirTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HadoopPractice" />
       <option name="PACKAGE_NAME" value="cn.nam.hdfs" />
       <option name="MAIN_CLASS_NAME" value="cn.nam.hdfs.HdfsDemoTest" />
-      <option name="METHOD_NAME" value="hdfsConnectTest" />
+      <option name="METHOD_NAME" value="mkDirTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,13 +367,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven" editBeforeRun="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.WordCountJob" />
+      <item itemvalue="JUnit.HdfsDemoTest.copyFromLocalTest" />
+      <item itemvalue="JUnit.HdfsDemoTest.deleteTest" />
+      <item itemvalue="JUnit.HdfsDemoTest.mkDirTest" />
+      <item itemvalue="JUnit.HdfsDemoTest.renameTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WordCountJob" />
+        <item itemvalue="JUnit.HdfsDemoTest.copyFromLocalTest" />
+        <item itemvalue="JUnit.HdfsDemoTest.mkDirTest" />
         <item itemvalue="JUnit.HdfsDemoTest.renameTest" />
         <item itemvalue="JUnit.HdfsDemoTest.deleteTest" />
-        <item itemvalue="JUnit.HdfsDemoTest.copyFromLocalTest" />
-        <item itemvalue="JUnit.HdfsDemoTest.hdfsConnectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -333,15 +416,6 @@
     <configuration useDefault="false">C:\Users\Nam Z\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="HdfsDemoTest_renameTest - 2019.08.10 at 18h 33m 05s.xml">
-      <configuration name="HdfsDemoTest.renameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsDemoTest_putFileIOTest - 2019.08.10 at 18h 58m 27s.xml">
-      <configuration name="HdfsDemoTest.putFileIOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsDemoTest_putFileIOTest - 2019.08.10 at 18h 59m 07s.xml">
-      <configuration name="HdfsDemoTest.putFileIOTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HdfsDemoTest_hdfsConnectTest - 2019.08.12 at 11h 22m 41s.xml">
       <configuration name="HdfsDemoTest.hdfsConnectTest" configurationId="JUnit" />
     </history-entry>
@@ -363,6 +437,15 @@
     <history-entry file="HdfsDemoTest_renameTest - 2019.08.12 at 11h 31m 08s.xml">
       <configuration name="HdfsDemoTest.renameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HdfsDemoTest_mkDirTest - 2019.08.15 at 13h 50m 02s.xml">
+      <configuration name="HdfsDemoTest.mkDirTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_copyFromLocalTest - 2019.08.15 at 13h 51m 16s.xml">
+      <configuration name="HdfsDemoTest.copyFromLocalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsDemoTest_copyFromLocalTest - 2019.08.15 at 13h 51m 34s.xml">
+      <configuration name="HdfsDemoTest.copyFromLocalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,22 +460,22 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22252011" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
       <window_info id="Structure" order="1" weight="0.38589212" />
       <window_info id="ZooKeeper" order="2" weight="0.17828418" />
-      <window_info active="true" id="Hadoop FileSystem" order="3" visible="true" weight="0.18565683" />
+      <window_info id="Hadoop FileSystem" order="3" weight="0.19101876" />
       <window_info id="Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.5536232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.36811593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289855" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.28985506" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.27101448" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.70869565" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289855" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -764,13 +847,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsDemo.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Linux_CentOS_7/Hadoop_Cluster/Z_Tools/hadoop-3.1.1/hadoop-3.1.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -782,16 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="2368" column="16" selection-start-line="2368" selection-start-column="16" selection-end-line="2368" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="100" column="76" selection-start-line="100" selection-start-column="76" selection-end-line="100" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,6 +891,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/nam/hdfs/HdfsDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/hdfs/HdfsConnectUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
@@ -839,10 +915,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3294">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/nam/mapreduce/wordcount/WordCountJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="216">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

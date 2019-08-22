@@ -55,7 +55,8 @@ public class HdfsDemoTest {
         conf.set("dfs.replication", "2");
         try {
             FileSystem putFs = FileSystem.get(new URI("hdfs://node01:8020"), conf, "znr");
-            putFs.copyFromLocalFile(new Path("O:\\test2"), new Path("/tmp/znr"));
+            putFs.copyFromLocalFile(new Path(""),
+                    new Path("/tmp/znr/spark_data"));
 //            使用默认replication=3上传
 //            fs.copyFromLocalFile(new Path("O:\\apitest"), new Path("/tmp/znr"));
 
@@ -74,7 +75,7 @@ public class HdfsDemoTest {
     @Test
     public void mkDirTest() {
         try {
-            fs.mkdirs(new Path("/tmp/znr/newDir"));
+            fs.mkdirs(new Path("/tmp/znr/spark_data"));
         } catch (IOException e) {
             e.printStackTrace();
         }
